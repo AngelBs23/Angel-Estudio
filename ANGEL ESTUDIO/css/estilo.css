@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: black;
+    background-color: #93d500;
+    border-radius: 2vw;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+}
+
+@keyframes navhover {
+    0% {
+        background-color: #d3045e;
+    }
+    25% {
+        background-color: #e35310;
+    }
+    50% {
+        background-color: #fdd700;
+    }
+    %75 {
+        background-color: #93d500;
+    }
+    %100 {
+        background-color: #93d500;
+    }
+}
+
+@keyframes xd {
+    0% {
+        color: #d3045e;
+    }
+    35% {
+        color: #e35310;
+    }
+    75% {
+        color: #fdd700;
+    }
+    %100 {
+        color: #93d500;
+    }
+}
+
+@keyframes entrada-salida {
+    25% {
+        background-color: black;
+    }
+    75% {
+        background-color: white;
+    }
+}
+
+/*inicio y general*/
+#contenedorinicio {
+    width: 90%;
+    height: 120vw;
+    margin: 0.5em auto;
+    padding: 0;
+}
+
+#header {
+    height: 30vw;
+    background-image: url(../img/Banner_bienvenido.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#nav {
+    height: 10%;
+    border-radius: 7vw;
+    background-color: white;
+    flex-flow: column;
+    align-content: center;
+    animation-name: entrada-salida;
+    animation-duration: 0.5;
+}
+
+#nav1 {
+    height: 4vw;
+    float: right;
+    margin: 2vw;
+}
+
+#navlogo {
+    padding-top: 1%;
+    height: 60%;
+    width: 30%;
+    float: left auto;
+    margin-left: 1vw;
+}
+
+#contenido {
+    height: 70vw;
+    background-color: black;
+}
+
+#footer {
+    height: 20%;
+    background-color: white;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin-top: 3vw;
+}
+
+#section {
+    width: 90%;
+    height: 95%;
+    margin: 1vw;
+    float: center;
+}
+
+#section1y1 {
+    height: 85%;
+}
+
+#seccion2y2 {
+    height: 15%;
+    width: 100% auto;
+    float: center;
+}
+
+#comenza1 {
+    font-family: "Kepler 296", cursive;
+    font-size: 4vw;
+    color: white;
+}
+
+.veanav {
+    float: right;
+    color: white;
+}
+
+#imagenyo {
+    margin-top: 7vw;
+    width: 50%;
+    height: 40vw;
+    background-image: url(../img/merain.png);
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#descripcion {
+    width: 40%;
+    height: 90%;
+    color: white;
+    float: right;
+    text-align: left;
+    margin-top: 10vw;
+    font-size: 1em;
+}
+
+#creemos {
+    font-family: "Kepler 296", cursive;
+    font-size: 3vw;
+}
+
+#cuerpocreemos {
+    margin-top: 4vw;
+}
+
+#redes {
+    height: 80%;
+    width: 50%;
+    float: right;
+    margin: ;
+    margin-top: 7%;
+    align-items: flex-end;
+}
+
+#visitaredes {
+    font-family: "Kepler 296", cursive;
+    font-size: 2vw;
+    margin: 0.3em;
+    text-align: flex;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+    font-size: 1.5vw;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li {
+    color: white;
+    display: inline-block;
+}
+
+a {
+    color: black;
+    padding: 15px;
+}
+
+
+}
+
+#redeslogo {
+    display: inline-block;
+    flex-flow: column;
+    float: left;
+}
+
+#redeslogo:hover {
+    transform: scale(1.1);
+
+    animation-duration: 1s;
+    border-radius: 5vw;
+}
+
+#barranav {
+    font-family: "Kepler 296", cursive;
+    font-size: 1.5vw;
+    display: flex;
+}
+
+#barranav:hover {
+    background-color: #93d500;
+    color: white;
+    border-radius: 4vw;
+    transition: color 0.5s ease;
+    animation-name: navhover;
+    animation-duration: 1s;
+    transform: scale(1.1);
+}
+
+/*fin css de inicio y general*/
+
+/*SECCIÓN DIGITAL*/
+
+#navdigi{
+  height: 15vh;
+  border-radius: 7vw;
+  background-color: white;
+  flex-flow: column;
+  align-content: center;
+  animation-name: entrada-salida;
+  animation-duration: 0.5;
+}
+
+#bodydigital {
+    height: 80vw;
+}
+
+#contenedordigital {
+    width: 90%;
+    height: 100vh;
+    margin: 0.5em auto;
+    padding: 0;
+}
+
+#headerdig {
+    height: 15vw;
+    background-image: url(../img/Banners_proyectosdigitales.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-right-radius: 14vw;
+    border-bottom-right-radius: 10vw;
+    border-bottom-left-radius: 15vw;
+}
+
+#contenidodigital {
+    height: 150%;
+    width: 95% auto;
+    flex: auto;
+}
+
+#librosrevistas {
+    font-family: "Kepler 296", cursive;
+    font-size: 4vw;
+    color: white;
+
+    text-align: center;
+}
+
+#nombreslib {
+    width: 84%;
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+}
+
+#nombreslibros1 {
+    font-family: "Kepler 296", cursive;
+    font-size: 1.7vw;
+    color: white;
+    float: left;
+}
+
+#nombreslibros2 {
+    font-family: "Kepler 296", cursive;
+    font-size: 1.7vw;
+    color: white;
+    float: right;
+}
+
+#libros {
+    height: 50vh;
+    margin-top: 8vw;
+
+}
+
+#imagenlibro1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#imagenlibro1boton {
+    width: 100%;
+    height: 20%;
+    font-family: "Kepler 296", cursive;
+    font-size: 10;
+    color: white;
+}
+
+#imagenlibro1boton:hover {
+    border-radius: 10vw;
+    animation-name: xd;
+    animation-duration: 1s;
+}
+
+#imagenrevista1 {
+    width: 50%;
+    height: 70%;
+    float: right;
+}
+
+#montajes{
+  height: 10vh;
+  width: 90vw;
+}
+
+#montajesypinturasdigitales{
+  font-family: "Kepler 296", cursive;
+  font-size: 7vh;
+  text-align: center;
+  color: white;
+  margin-top: 40%;
+  margin-bottom: 7%
+}
+
+#fotomon{
+  display: inline-flex;
+  justify-content: center;
+  margin: 1.2vw;
+}
+
+#foot{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  margin-top: 10%;
+  border-top-left-radius: 4vw;
+  border-top-right-radius: 4vw;
+}
+
+/*FIN DE SECCIÓN DIGITAL*/
+
+/*3D SECCIÓN*/
+
+#contenedor3d {
+    width: 90%;
+    height: 100vw;
+    margin: 0.5em auto;
+    padding: 0;
+}
+
+#header3d {
+    height: 15vw;
+    background-image: url(../img/Banners_proyectosen3d.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-right-radius: 14vw;
+    border-bottom-right-radius: 10vw;
+    border-bottom-left-radius: 15vw;
+}
+
+#contenido3d {
+    height: 120vw;
+    width: 100%;
+}
+
+#tresdbicho {
+    margin-top: 5vw;
+    height: 60%;
+}
+
+.sketchfab-embed-wrapper {
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+#nicoprojecttext {
+    font-family: "Kepler 296", cursive;
+    font-size: 3vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
+}
+
+#nicoexplain {
+    height: 30%;
+    width: 100%;
+}
+
+#textonico {
+    width: 50%;
+    border-color: #fdd700;
+    margin-top: 10%;
+    float: left;
+    font-family: "Jost", sans-serif;
+    font-size: 2vw;
+    color: white;
+    text-align: right;
+}
+
+#imagenbocetonico {
+    width: 40%;
+    height: 100%;
+    float: right;
+    color: white;
+}
+
+#maspro {
+    margin-top: 7%;
+    height: 5%;
+    font-family: "Kepler 296", cursive;
+    font-size: 3vw;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+#filtrolink {
+    font-family: "Kepler 296", cursive;
+    font-size: 2vw;
+    color: #93d500;
+}
+
+#filtrolink:hover {
+    animation-name: xd;
+    animation-duration: 1s;
+}
+
+/*FIN DE 3D SECCIÓN*/
+
+
+/*MANUAL SECCIÓN*/
+
+#contenedormanu{
+  width: 90%;
+  height: 120vw;
+  margin: 0.5em auto;
+  padding: 0;
+}
+
+#headermanual{
+  height: 15vw;
+  background-image: url(../img/Banners_proyectosmanuales.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top-right-radius: 14vw;
+  border-bottom-right-radius: 10vw;
+  border-bottom-left-radius: 15vw;
+}
+
+#manuales{
+  font-family: "Kepler 296", cursive;
+  font-size: 7vh;
+  text-align: center;
+  color: white;
+  margin-top: 15%;
+  margin-bottom: 7%
+}
+
+/*FIN DE MANUAL SECCIÓN*/
+
+#contenedorlib{
+  width: 90%;
+  height: 140vh;
+  margin: 0.5em auto;
+  padding: 0;
+}
+
+#contenlibro{
+   margin-top: 10%;
+   height: 80vh;
+   width: 100%;
+}
